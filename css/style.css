@@ -53,7 +53,6 @@ header {
   
 
 .front {
-  background-image: url('../img/bobrossparrot.gif');
   transform: rotateY(180deg);
 }
 
