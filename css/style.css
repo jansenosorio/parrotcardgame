@@ -63,4 +63,5 @@ header {
 
 .flip {
   transform: rotateY(180deg);
+  transition: all 400ms ease;
 }
