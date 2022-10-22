@@ -3,6 +3,8 @@ body {
   flex-direction: column;
   justify-content: center;
   background: #EEF9BF;
+
+  position: relative;
 }
 
 header {
@@ -69,4 +71,27 @@ header {
 .flip {
   transform: rotateY(180deg);
   transition: all 400ms ease;
+}
+
+.relogio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40px;
+  left: 90%;
+
+  font-size: 40px;
+  color: #EEF9BF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: #99CEA8;
+
+  border-radius: 5px;
+  border: 1px solid #A7E9AF;
+
 }
