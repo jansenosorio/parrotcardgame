@@ -95,3 +95,18 @@ header {
   border: 1px solid #A7E9AF;
 
 }
+
+@media (max-width: 615px) {
+  .container {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .relogio {
+    width: 80px;
+    height: 80px;
+    
+    top: 150px;
+    left: 75%
+  }
+}
