@@ -112,23 +112,12 @@ function verificarSeSaoIguais() {
 function encerrarJogo() {
   const flipedCards = document.querySelectorAll('.flip')
   const numeroCartas = document.querySelectorAll('.card')
-  // let continuarJogar = ''
 
   if (flipedCards.length == numeroCartas.length) {
     alert(
       `Você venceu o jogo em ${contador} tentativas e ${contar} segundos, parabéns!`
     )
     contar = ''
-    // console.log(continuarJogar)
-
-    // if (continuarJogar == 'sim') {
-    //   entradaDosNumeros()
-    // } else if (continuarJogar !== 'não') {
-    //   alert('Favor inserir "sim" ou "não"')
-    // } else {
-    //   alert('Obrigado por jogar!')
-    //   clearTimeout(encerrarJogo)
-    // }
   }
 }
 
