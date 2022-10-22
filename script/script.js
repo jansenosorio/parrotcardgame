@@ -66,7 +66,7 @@ function criarCartas() {
     contadorImagem = listImagensEmbaralhadaDuplicadas[i]
     cartas.innerHTML += `
           <div class="card" onclick="flip(this)" data-parrot="${contadorImagem}">
-            <div class="face front" style="background-image: url('../img/${contadorImagem}.gif')"></div>
+            <div class="face front" style="background-image: url('img/${contadorImagem}.gif')"></div>
             <div class="face back"></div>
           </div>`
   }
