@@ -7,7 +7,7 @@ https://jansenosorio.github.io/parrotcardgame/
 Esse projeto faz parte do curso da Driven Education . Neste projeto aplicamos nossos conhecimento em HTML, CSS e Javascript, além de consumir <strong>API com Axios</strong>. Criando uma interface dinâmica para um jogo de mémoria com parrots. Aplicação com layout responsivo para Desktop e Mobile.
 
 <p align="center">
-  <img width="250px" src="img/ConversationPAge1.png"/>
+  <img src="img/parrotcardgameimagem.png"/>
 </p>
 
 ## Technologies
@@ -43,6 +43,7 @@ Utilizando o <strong>Post Request</strong>
     console.log(error);
   });
   ```
+Documentação completa: <a href="https://axios-http.com/docs/post_example">Clique Aqui</a>
 
 ### GET Request
 ```
